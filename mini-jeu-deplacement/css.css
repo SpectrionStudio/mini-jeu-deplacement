@@ -1,1 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#jeu {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  position: relative;
+  border: 2px solid black;
+}
+
+#personnage {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  top: 225px;
+  left: 225px;
+  transition: top 0.1s, left 0.1s;
+}
 
